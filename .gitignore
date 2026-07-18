@@ -1,12 +1,15 @@
 # Terraform
-.terraform/
+**/.terraform/
 *.tfstate
 *.tfstate.*
-tfplan
 *.tfplan
+tfplan
 
-# Terraform variables (optional)
-*.tfvars
+# Terraform lock file
+.terraform.lock.hcl
 
 # macOS
 .DS_Store
+
+# IDE
+.vscode/
