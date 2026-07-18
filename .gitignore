@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+*.tfplan
+
+# Terraform variables (optional)
+*.tfvars
+
+# macOS
+.DS_Store
